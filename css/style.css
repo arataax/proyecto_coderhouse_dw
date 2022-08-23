@@ -1,0 +1,302 @@
+* {
+    Margin:0;
+    padding:0;
+    box-sizing: border-box;
+ }
+
+
+nav ul li{
+    display: inline-block;
+}
+
+ nav ul {
+    list-style-type: none;
+   }
+
+nav ul li a:link, a:visited, a:active {
+text-decoration: none;
+}
+
+.header{
+    background-color: #aee1d3;
+}
+
+
+
+.fuentetitulo{
+    font-style: oblique;
+    text-align: center;
+    margin: 1em;
+}
+
+.der{
+    display: flex;
+    justify-content: right;
+}
+
+.fondocolor{
+    background-color: #76bcad;
+}
+     
+.separador{
+    margin: 2em;
+    border: .2em solid #29251c;
+    padding: .3em;
+    background-color: #e6aa9f;
+}
+
+.separadorlogo{
+    margin: 2em;
+    padding: .3em;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footercentro{
+    text-align: center;
+    margin: 2em;
+    border: .2em solid #29251c;
+    padding: .3em;
+    background-color: #e6aa9f;
+}
+
+footer ul li a:link, a:visited, a:active{
+    text-decoration: none;
+}
+
+footer ul {
+    list-style-type: none;
+   }
+
+footer ul li{
+    display: inline-block;
+}
+
+.fcent{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    margin: 2em;
+    border: .2em solid #29251c;
+    padding: 3em;
+    background-color: #adc0b4;
+    
+}
+
+section{
+    display: inline-block;
+    text-align: center;
+}
+
+#grilla {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    flex-wrap: wrap;
+    flex-direction: column;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:"header"
+                        "div"
+                        "main"
+                        "footer";
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+#grillados {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:"header"
+                        "main"
+                        "footer";
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;                    
+}
+
+#grillacontacto {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:"header"
+                        "main"
+                        "section"
+                        "footer";
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+#grillaproductos {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:"header"
+                        "main"
+                        "section"
+                        "footer";
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+#grillaservicios {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:"header"
+                        "main"
+                        "section"
+                        "footer";
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+#principal {
+    grid-area: main;
+    display: grid;
+    grid-template-rows: .2fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:"h1"
+                        "section";
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+
+
+header {
+    position: sticky;
+    top: 0;
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+    
+}
+
+div {
+    grid-area: div;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+
+@media only screen and (max-widht: 1024px) {
+    #grilla {
+
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:"header"
+                            "div"
+                            "main"
+                            "footer";
+    }
+
+    #grillados {
+
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:"header"
+                            "main"
+                            "footer";
+    }
+    #grillacontacto {
+
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:"header"
+                            "main"
+                            "section"
+                            "footer";
+    }
+    #grillaproductos {
+
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:"header"
+                            "main"
+                            "section"
+                            "footer";
+    }
+    #grillaservicios {
+
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:"header"
+                            "main"
+                            "section"
+                            "footer";
+    } 
+}
+
+@media only screen and (max-widht: 500px){
+    #grilla {
+
+        grid-template-rows: .5fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:"header"
+                            "div"
+                            "main"
+                            "footer";
+    }
+    
+    #grillados {
+
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:"header"
+                            "main"
+                            "footer";
+    }
+    #grillacontacto {
+
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:"header"
+                            "main"
+                            "section"
+                            "footer";
+    }
+    #grillaproductos {
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:"header"
+                            "main"
+                            "section"
+                            "footer";
+    }
+    #grillaservicios {
+
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:"header"
+                            "main"
+                            "section"
+                            "footer";
+    }
+    .centro{
+
+        flex-direction: column;
+    }
+    
+}
