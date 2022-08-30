@@ -1,29 +1,38 @@
-nav ul li{
-    display: inline-block;
-}
+nav ul li {
+  display: inline-block; }
+
 nav ul li a:link, a:visited, a:active {
-    text-decoration: none;
-}
-footer ul li a:link, a:visited, a:active{
-    text-decoration: none;
-}
-footer ul li{
-    display: inline-block;
-}
-.box{
-    margin: 2em;
-    border: .2em solid #29251c;
-    padding: 3em;
-    background-color: #adc0b4;    
+  text-decoration: none; }
 
-/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { ... }
+footer ul li a:link, a:visited, a:active {
+  text-decoration: none; }
 
-/* // `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { ... }
+footer ul li {
+  display: inline-block; }
 
-/* // `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { ... }
+.box {
+  margin: 2em;
+  border: .2em solid #29251c;
+  padding: 3em;
+  background-color: #adc0b4; }
 
-/* // `xl` applies to large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { ... }
+a:hover {
+  font-weight: bold;
+  background-color: rgba(20, 14, 14, 0.452);
+  color: aqua;
+  text-decoration: underline; }
+
+a:link {
+  text-decoration: none;
+  color: white; }
+
+a:active {
+  background-color: rebeccapurple;
+  color: goldenrod; }
+
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+/* // Small devices (landscape phones, 576px and up) */
+/* // Medium devices (tablets, 768px and up) */
+/* // Large devices (desktops, 992px and up) */
+/* // X-Large devices (large desktops, 1200px and up) */

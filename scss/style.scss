@@ -1,0 +1,46 @@
+nav ul li{
+    display: inline-block;
+}
+nav ul li a:link, a:visited, a:active {
+    text-decoration: none;
+}
+footer ul li a:link, a:visited, a:active{
+    text-decoration: none;
+}
+footer ul li{
+    display: inline-block;
+}
+.box{
+    margin: 2em;
+    border: .2em solid #29251c;
+    padding: 3em;
+    background-color: #adc0b4;    
+}
+a:hover{
+    font-weight:bold;
+    background-color:rgba(20, 14, 14, 0.452);
+    color: aqua;
+    text-decoration:underline;
+}
+a:link{
+    text-decoration:none; color: white;
+}
+a:active{
+background-color: rebeccapurple; color: goldenrod;
+}
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
