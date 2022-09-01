@@ -1,15 +1,7 @@
-nav ul li{
-    display: inline-block;
-}
-nav ul li a:link, a:visited, a:active {
-    text-decoration: none;
-}
-footer ul li a:link, a:visited, a:active{
-    text-decoration: none;
-}
-footer ul li{
-    display: inline-block;
-}
+@import './variables';
+@import './nav';
+@import './footer';
+
 .box{
     margin: 2em;
     border: .2em solid #29251c;

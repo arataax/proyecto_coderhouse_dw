@@ -1,0 +1,15 @@
+footer{
+    ul{
+        li{
+            display: inline-block;
+            background-color: map-get($color , "naranja" );
+            a{
+                &:link
+                &:visited
+                &:active{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

@@ -1,14 +1,14 @@
 nav ul li {
-  display: inline-block; }
-
-nav ul li a:link, a:visited, a:active {
-  text-decoration: none; }
-
-footer ul li a:link, a:visited, a:active {
-  text-decoration: none; }
+  display: inline-block;
+  background-color: #D2B4F0; }
+  nav ul li a:link nav ul li a:visited nav ul li a:active {
+    text-decoration: none; }
 
 footer ul li {
-  display: inline-block; }
+  display: inline-block;
+  background-color: orange; }
+  footer ul li a:link footer ul li a:visited footer ul li a:active {
+    text-decoration: none; }
 
 .box {
   margin: 2em;

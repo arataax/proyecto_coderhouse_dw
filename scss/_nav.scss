@@ -1,0 +1,15 @@
+nav{
+    ul{
+        li{
+            display: inline-block;
+            background-color: $color-especial;
+            a{
+                &:link
+                &:visited
+                &:active{
+                    text-decoration:none;
+                }
+            }
+        }
+    }
+}
