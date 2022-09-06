@@ -1,0 +1,54 @@
+@mixin box {
+    margin: 2em;
+    border: .2em solid #29251c;
+    padding: 3em;
+    background-color: #adc0b4;
+}
+
+@mixin hover {
+    font-weight:bold;
+    background-color:rgba(20, 14, 14, 0.452);
+    color: aqua;
+    text-decoration:underline;
+}
+
+@mixin lista {
+    li{
+        display: inline-block;
+        background-color: $color-especial;
+        a{
+            &:link
+            &:visited
+            &:active{
+                text-decoration:none;
+            }
+        }
+    }
+}
+
+@mixin query ($background,$vista) {
+
+    body{
+
+        @if $vista == desktop {
+            @media only screen and (max-width: 1024px){
+                background-color: $background;
+            }
+        }
+        @else if $vista == tablet {
+            @media only screen and (max-width: 767px){
+                background-color: $background;
+            }
+        }
+        @else if $vista == mobile {
+            @media only screen and (max-width: 576px){
+                background-color: $background;
+            }
+        }
+        @else{
+            background-color: $background;
+        }
+
+    }
+
+}

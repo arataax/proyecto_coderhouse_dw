@@ -1,14 +1,24 @@
-nav ul li {
-  display: inline-block;
-  background-color: #D2B4F0; }
-  nav ul li a:link nav ul li a:visited nav ul li a:active {
-    text-decoration: none; }
+nav {
+  max-width: 100%; }
+  nav ul li {
+    display: inline-block;
+    background-color: #D2B4F0; }
+    nav ul li a:link nav ul li a:visited nav ul li a:active {
+      text-decoration: none; }
+
+li img {
+  max-width: 150px;
+  max-height: 150px; }
 
 footer ul li {
   display: inline-block;
   background-color: orange; }
   footer ul li a:link footer ul li a:visited footer ul li a:active {
     text-decoration: none; }
+
+body {
+  max-width: 100%;
+  overflow-x: hidden; }
 
 .box {
   margin: 2em;
@@ -30,9 +40,18 @@ a:active {
   background-color: rebeccapurple;
   color: goldenrod; }
 
-/* // X-Small devices (portrait phones, less than 576px) */
-/* // No media query for `xs` since this is the default in Bootstrap */
-/* // Small devices (landscape phones, 576px and up) */
-/* // Medium devices (tablets, 768px and up) */
-/* // Large devices (desktops, 992px and up) */
-/* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1400px) {
+  body {
+    background-color: yellow; } }
+
+@media only screen and (max-width: 1024px) {
+  body {
+    background-color: blue; } }
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: orange; } }
+
+@media only screen and (max-width: 576px) {
+  body {
+    background-color: lightblue; } }

@@ -1,15 +1,13 @@
 nav{
+    max-width: 100%;
     ul{
-        li{
-            display: inline-block;
-            background-color: $color-especial;
-            a{
-                &:link
-                &:visited
-                &:active{
-                    text-decoration:none;
-                }
-            }
-        }
+        @include lista;
+    }
+}
+
+li{
+    img{
+        max-width: 150px;
+        max-height: 150px;
     }
 }
