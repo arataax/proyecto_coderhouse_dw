@@ -1,13 +1,5 @@
-@mixin box {
-    margin: 2em;
-    border: .2em solid #29251c;
-    padding: 3em;
-    background-color: #adc0b4;
-}
-
 @mixin hover {
     font-weight:bold;
-    background-color:rgba(20, 14, 14, 0.452);
     color: aqua;
     text-decoration:underline;
 }

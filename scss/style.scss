@@ -4,13 +4,11 @@
 @import './footer';
 @import './header';
 
+
+
 body{
     max-width: 100%;
     overflow-x: hidden;
-}
-
-.box{
-    @include box;    
 }
 
 a:hover{
@@ -20,12 +18,15 @@ a:link{
     text-decoration:none; color: white;
 }
 a:active{
-background-color: rebeccapurple; color: goldenrod;
+background-color: white; color: white;
+}
+a:visited{
+    color: white;
 }
 
 @media (max-width: 2600px) {
-    @include query(yellow,bigdesktop)
+    @include query(rgb(255, 255, 255),bigdesktop)
 }
-@include query(blue,desktop);
-@include query(orange,tablet);
-@include query(lightblue,mobile);
+@include query(rgb(255, 255, 255),desktop);
+@include query(rgb(255, 255, 255),tablet);
+@include query(rgb(255, 255, 255),mobile);

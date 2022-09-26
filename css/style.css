@@ -1,57 +1,79 @@
 nav {
-  max-width: 100%; }
-  nav ul li {
-    display: inline-block;
-    background-color: #D2B4F0; }
-    nav ul li a:link nav ul li a:visited nav ul li a:active {
-      text-decoration: none; }
+  max-width: 100%;
+  font-size: x-large;
+}
+nav ul li {
+  display: inline-block;
+  background-color: #999999;
+}
+nav ul li a:link nav ul li a:visited nav ul li a:active {
+  text-decoration: none;
+}
 
 li img {
-  max-width: 150px;
-  max-height: 150px; }
+  max-width: 75px;
+  max-height: 75px;
+}
 
+footer {
+  background-color: #999999;
+}
 footer ul li {
   display: inline-block;
-  background-color: orange; }
-  footer ul li a:link footer ul li a:visited footer ul li a:active {
-    text-decoration: none; }
+  text-align: center;
+}
+footer ul li a:link footer ul li a:visited footer ul li a:active {
+  text-decoration: none;
+}
+
+header {
+  background-color: #999999;
+}
 
 body {
   max-width: 100%;
-  overflow-x: hidden; }
-
-.box {
-  margin: 2em;
-  border: .2em solid #29251c;
-  padding: 3em;
-  background-color: #adc0b4; }
+  overflow-x: hidden;
+}
 
 a:hover {
   font-weight: bold;
-  background-color: rgba(20, 14, 14, 0.452);
   color: aqua;
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 a:link {
   text-decoration: none;
-  color: white; }
+  color: white;
+}
 
 a:active {
-  background-color: rebeccapurple;
-  color: goldenrod; }
+  background-color: white;
+  color: white;
+}
 
-@media (max-width: 1400px) {
+a:visited {
+  color: white;
+}
+
+@media (max-width: 2600px) {
   body {
-    background-color: yellow; } }
-
+    background-color: rgb(255, 255, 255);
+  }
+}
 @media only screen and (max-width: 1024px) {
   body {
-    background-color: blue; } }
+    background-color: rgb(255, 255, 255);
+  }
+}
 
 @media only screen and (max-width: 767px) {
   body {
-    background-color: orange; } }
+    background-color: rgb(255, 255, 255);
+  }
+}
 
 @media only screen and (max-width: 576px) {
   body {
-    background-color: lightblue; } }
+    background-color: rgb(255, 255, 255);
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,8 +1,9 @@
 footer{
+    background-color: map-get($color , "gris" );
     ul{
         li{
             display: inline-block;
-            background-color: map-get($color , "naranja" );
+            text-align: center;
             a{
                 &:link
                 &:visited
