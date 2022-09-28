@@ -4,19 +4,23 @@ nav {
 }
 nav ul li {
   display: inline-block;
-  background-color: #999999;
+  background-color: #000000;
+  color: black;
 }
 nav ul li a:link nav ul li a:visited nav ul li a:active {
   text-decoration: none;
 }
 
-li img {
+a img {
   max-width: 75px;
   max-height: 75px;
+  background-color: white;
 }
 
 footer {
-  background-color: #999999;
+  background-color: black;
+  height: 13em;
+  color: white;
 }
 footer ul li {
   display: inline-block;
@@ -27,7 +31,12 @@ footer ul li a:link footer ul li a:visited footer ul li a:active {
 }
 
 header {
-  background-color: #999999;
+  background-color: black;
+}
+
+main h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2cm;
 }
 
 body {
@@ -37,27 +46,20 @@ body {
 
 a:hover {
   font-weight: bold;
-  color: aqua;
   text-decoration: underline;
 }
 
 a:link {
   text-decoration: none;
-  color: white;
-}
-
-a:active {
-  background-color: white;
-  color: white;
 }
 
 a:visited {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 @media (max-width: 2600px) {
   body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(253, 215, 0);
   }
 }
 @media only screen and (max-width: 1024px) {

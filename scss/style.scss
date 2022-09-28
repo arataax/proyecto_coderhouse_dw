@@ -3,8 +3,8 @@
 @import './nav';
 @import './footer';
 @import './header';
-
-
+@import './main';
+@import './night';
 
 body{
     max-width: 100%;
@@ -15,17 +15,17 @@ a:hover{
     @include hover;
 }
 a:link{
-    text-decoration:none; color: white;
-}
-a:active{
-background-color: white; color: white;
-}
-a:visited{
-    color: white;
+    text-decoration:none; 
 }
 
+a:visited{
+    color: rgb(255, 255, 255);
+}
+
+
+
 @media (max-width: 2600px) {
-    @include query(rgb(255, 255, 255),bigdesktop)
+    @include query(rgb(253, 215, 0),bigdesktop)
 }
 @include query(rgb(255, 255, 255),desktop);
 @include query(rgb(255, 255, 255),tablet);

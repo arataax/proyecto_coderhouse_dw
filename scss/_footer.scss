@@ -1,5 +1,7 @@
 footer{
-    background-color: map-get($color , "gris" );
+    background-color: map-get($color , "negro" );
+    height: 13em;
+    color: white;
     ul{
         li{
             display: inline-block;

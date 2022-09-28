@@ -1,6 +1,5 @@
 @mixin hover {
     font-weight:bold;
-    color: aqua;
     text-decoration:underline;
 }
 
@@ -8,6 +7,7 @@
     li{
         display: inline-block;
         background-color: $color-especial;
+        color: black;
         a{
             &:link
             &:visited
