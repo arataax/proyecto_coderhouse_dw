@@ -6,7 +6,6 @@
 @mixin lista {
     li{
         display: inline-block;
-        background-color: $color-especial;
         color: black;
         a{
             &:link

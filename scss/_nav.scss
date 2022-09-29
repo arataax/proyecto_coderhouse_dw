@@ -1,6 +1,7 @@
 nav{
     max-width: 100%;
     font-size:x-large;
+    align-self: flex-start;
     ul{
         @include lista;
     }
@@ -10,6 +11,6 @@ a{
     img{
         max-width: 75px;
         max-height: 75px;
-        background-color: white;
+        background-color: rgba(0, 238, 255, 0.849);
     }
 }

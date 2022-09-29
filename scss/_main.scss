@@ -1,6 +1,22 @@
 main{
-    h1{
-        font-family:'Times New Roman', Times, serif;
-        font-size: 2cm;
-    }
+    position: relative;
+    z-index: 99;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    margin: 40px;
+    font-size: 5vw;
+    color: #00fffb;
+}
+h2{
+    font-size: 2.5vw;
+    margin: 40px;
+    font-family:'Times New Roman', Times, serif;
+    color: #00fffb;
+}
+h5{
+    font-size: 1.5vw;
+    margin: 40px;
+    font-family:'Times New Roman', Times, serif;
+    color: #00fffb;
 }

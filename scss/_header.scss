@@ -1,3 +1,5 @@
 header{
     background-color: map-get($color , "negro" );
+    position: relative;
+    z-index: 99;
 }

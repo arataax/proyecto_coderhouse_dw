@@ -1,7 +1,9 @@
 footer{
     background-color: map-get($color , "negro" );
-    height: 13em;
     color: white;
+    height: 200px;
+    position: relative;
+    z-index: 99;
     ul{
         li{
             display: inline-block;
